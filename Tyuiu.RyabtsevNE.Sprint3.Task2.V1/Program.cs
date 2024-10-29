@@ -22,12 +22,11 @@ namespace Tyuiu.RyabtsevNE.Sprint3.Task2.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет         *");
-            Console.WriteLine("* произведение ряда по формуле, при t=1                                   *");
+            Console.WriteLine("* произведение ряда по формуле                                            *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            int t = 1;
             int startValue = 1, stopValue = 10;
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
