@@ -27,6 +27,7 @@ namespace Tyuiu.RyabtsevNE.Sprint3.Task2.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            int t = 1;
             int startValue = 1, stopValue = 10;
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
@@ -35,7 +36,7 @@ namespace Tyuiu.RyabtsevNE.Sprint3.Task2.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Произведение ряда " + ds.GetMultiplySeries(startValue, stopValue));
+            Console.WriteLine("Произведение ряда " + ds.GetSumSeries(startValue, stopValue));
             Console.ReadKey();
         }
     }
